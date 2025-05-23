@@ -11,7 +11,7 @@ import os
 import time
 import sys
 
-# ✅ Komut satırından URL alınır
+# Komut satırından URL alınır
 if len(sys.argv) < 2:
     print("❌ Lütfen ürün URL'sini parametre olarak girin.")
     print("Örnek: python scraper.py https://www.trendyol.com/.../p-123")
